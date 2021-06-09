@@ -104,7 +104,9 @@ int main(void) {
         (queueEmpty())  ? printf("A fila está vazia.\n") : showQueue();
         menu();
 
-        //https://pt.stackoverflow.com/questions/336557/como-ler-apenas-numeros-inteiros-no-scanf
+        /*
+        https://pt.stackoverflow.com/questions/336557/como-ler-apenas-numeros-inteiros-no-scanf
+        */
         while(scanf("%d", &option) != 1) {
             system("cls");
             (queueEmpty())  ? printf("A fila está vazia.\n") : showQueue();
